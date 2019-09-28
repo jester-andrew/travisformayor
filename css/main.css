@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3em;
+    max-width: 100%;
+}
+
+#title {
+    text-align: left;
+    margin-top: 2em;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+nav {
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    background-image: linear-gradient(rgba(36, 63, 149, 1), rgba(36, 63, 149, .8));
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 1px 1px black;
+    padding-bottom: .3em;
+}
+
+nav ul a:hover {
+    border-bottom: 3px solid rgb(166, 30, 35);
+    opacity: .95;
+}
+
+nav ul li {
+    padding-right: 2em;
+}
+
+#nav {
+    position: absolute;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(rgba(36, 63, 149, 1), rgba(36, 63, 149, .8));
+    padding-top: .5em;
+    padding-bottom: .5em;
+    color: white;
+    text-shadow: 1px 1px black;
+    line-height: 1.3em;
+    font-size: 1.1em;
+    width: 100%;
+    max-width: 100%;
+}
+
+#mayor {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 50%;
+}
+
+#reg-btns {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#reg-btns li {
+    width: 150px;
+    background-color: rgb(166, 30, 35);
+    margin: auto;
+    list-style: none;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 25px;
+    margin-bottom: 1.5em;
+}
+
+#reg-btns a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#vote-criteria {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+#vote h1 {
+    text-align: center;
+}
+
+#vote-criteria li {
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: .5em;
+    margin-top: .3em;
+}
+
+#vote-criteria {
+    width: 30%;
+    margin-left: 45%;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+#vote h2 {
+    text-align: center;
+}
+
+#vote h1 {
+    padding-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+#mystory p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mystory h1 {
+    padding-top: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#last {
+    margin-bottom: 1em;
+}
+
+#myStoryimg {
+    display: block;
+    width: 30%;
+    border-radius: 25px;
+    margin-bottom: 1em;
+}
+
+#platform {
+    width: 50%;
+    margin: auto;
+}
+
+#platform h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    padding-top: 1em;
+}
+
+#platform h2 {
+    margin-bottom: .25em;
+}
+
+#platform p {
+    margin-bottom: 1em;
+}
+
+#squeeze {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+
+/* main{
+    background-image: linear-gradient(rgb(166, 30, 35), rgba(166, 30, 35, 9)) 
+}
+
+
+/* small screen */
+
+@media only screen and (max-width: 767px) {
+    nav ul a {
+        font-size: 1.1em;
+    }
+    nav ul li {
+        padding-right: 1.4em;
+    }
+    #nav {
+        width: 96%;
+        padding-left: 1em;
+    }
+    h1 {
+        font-size: 1.8em;
+        margin-bottom: 1em;
+        padding-top: 1em;
+    }
+    h2 {
+        font-size: 1.3em;
+        text-align: center;
+    }
+    #reg-btns {
+        text-align: center;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    #reg-btns li {
+        width: 150px;
+        background-color: rgb(166, 30, 35);
+        margin: auto;
+        list-style: none;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        padding-left: 2em;
+        padding-right: 2em;
+        border-radius: 25px;
+        margin-bottom: 1.5em;
+    }
+    #reg-btns a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+    #vote-criteria {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 1em;
+    }
+    #vote-criteria li {
+        font-size: 15px;
+        font-weight: normal;
+        margin-bottom: .5em;
+        margin-top: .3em;
+    }
+    #vote-criteria {
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+    }
+    #mystory p {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #myStoryimg {
+        width: 98%;
+    }
+    #platform p {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+    }
+    #platform h2 {
+        margin-bottom: .25em;
+    }
+    #platform {
+        width: 100%;
+    }
+    #mayor {
+        margin-top: 3.2em;
+        margin-bottom: 3.2em;
+        width: 100%;
+    }
+}
